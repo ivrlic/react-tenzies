@@ -11,7 +11,7 @@ export default function useTenziesGame() {
 
     const [time, setTime] = useState({min:0, sec:0})
     const [timeStatus, setTimeStatus] = useState(false)
-    const [moves, setMoves] = useState(-2)
+    const [moves, setMoves] = useState(-1)
     const [dice, setDice] = useState(getFirstNewDice())
     const [tenzies, setTenzies] = useState(false)
     const [score, setScore] = useState(0)
